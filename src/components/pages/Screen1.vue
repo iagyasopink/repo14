@@ -9,15 +9,24 @@
       v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
       v-bind:style="{'height':'auto','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
       slot="r0-c0" area="r0-c0">
-      <WImage v-bind:blank="false" v-bind:rounded="false" stretch="none"
+      <WImage top="11.198738170347003%" left="5.217391304347826%" v-bind:blank="false" v-bind:snapX="false"
+        v-bind:snapY="false" v-bind:rounded="false" stretch="none"
         imageUrl="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/05/genshin-impact-ayaka-extended.jpg"
+        position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+        v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+        v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+        ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+        id="9296b15b-ec34-442b-87eb-8923f40b73b7"
+        v-bind:style="{'width':'475px','height':'318px','zIndex':2,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+      <WImage v-bind:blank="false" v-bind:rounded="false" stretch="none"
+        imageUrl="https://images.nightcafe.studio/jobs/4ydehgaUSrV4l3bDhTqA/4ydehgaUSrV4l3bDhTqA--1--za9kv.jpg?tr=w-1600,c-at_max"
         v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black" v-bind:aspectRatio="true"
         dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
         v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
         ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string" position="absolute"
-        top="11.198738170347003%" left="5.217391304347826%" v-bind:snapX="false" v-bind:snapY="false"
-        id="9296b15b-ec34-442b-87eb-8923f40b73b7"
-        v-bind:style="{'width':'475px','height':'318px','maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px','zIndex':2}"/>
+        top="11.43847487001733%" left="57.82608695652174%" v-bind:snapX="false" v-bind:snapY="false"
+        id="7bd67f02-2f34-4b11-82b1-09b0c35f26db"
+        v-bind:style="{'width':'381px','height':'392px','maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px','zIndex':3}"/>
     </NucGridCell>
   </NucGridPage>
 </template>
